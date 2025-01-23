@@ -6,11 +6,98 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
+    <style>
+        body{
+            background-color: mediumpurple;
+        }
+        #main{
+            display: flex;
+            width: 100%;
+            height: 50%;
+            margin: 0 auto;
+            padding: 30px;
+
+        }
+        #no1{
+            background-color: white;
+            padding: 30px;
+
+        }
+        #left{
+            background-color: cornflowerblue;
+            padding: 30px;
+            color: white;
+        }
+        button{
+            background-color: cornflowerblue;
+            text-align: center;
+            display: block; margin: 0 auto;
+            border-radius: 10px;
+            width: 50%;
+            height: 40px;
+        }
+        h1{
+            text-align: center;
+        }
+
+
+    </style>
 </head>
 <body>
 
 <h1>Contact us</h1>
 <p><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa dolore enim iure, molestias nam placeat quam quasi quod repellat similique, sint tempore temporibus vel? Adipisci deserunt facilis laboriosam praesentium sed.</span><span>Adipisci at consequuntur dolor doloremque ducimus eaque eos esse fuga, fugiat id laborum neque omnis perferendis praesentium quo recusandae reiciendis reprehenderit similique tempore temporibus velit vero voluptas voluptates! Illo, soluta!</span><span>Ad aliquam amet architecto commodi dignissimos dolores ducimus ea est eum excepturi exercitationem fuga harum in laborum maiores molestiae nihil nisi obcaecati quidem quisquam quos reiciendis sed tempore tenetur, totam?</span></p>
+
+    <div id="main">
+        <div id="left">
+            <h1>Let's Chat</h1>
+            <p>Whether you have a question, want to <br> start a project or simply want to connect</p>
+            <p>Feel free to send me a message in the <br> contact form</p>
+        </div>
+
+        <div id="no1">
+            <form action="">
+               <h1>Contact</h1>
+                <legend>*Required</legend>
+
+                <label for="Name*"></label>
+                <input type="text" id="Name*" placeholder="Name*" required="required">
+                <br><br>
+                <label for="Email*"></label>
+                <input type="text" id="Email*" placeholder="Email*" required="required">
+                <br><br>
+                <label for="Company"></label>
+                <input type="text" id="Company" placeholder="Company">
+                <br><br>
+                <label for="Phone"></label>
+                <input type="tel" id="Phone" placeholder="Phone">
+                <br><br>
+                <label for="Message"></label>
+                <textarea name="" id="Message" cols="40" rows="5" placeholder="Message"></textarea>
+                <br><br>
+                <button type="submit">Submit</button>
+
+
+
+
+
+            </form>
+
+
+
+        </div>
+
+
+
+    </div>
+
+
+
+
+
+
+
+
 
 
 </body>
